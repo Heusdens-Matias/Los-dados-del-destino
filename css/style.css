@@ -1,0 +1,59 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*!----------Header----------*/
+
+header{
+    width: 100%;
+    height: 700px;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), /*Degradado de transparente a negro */
+        url(../img/dados\ afiche.png); /* Imagen de fondo */
+        background-size: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+        background-position: center; /* Centra la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+    }
+header nav img{
+    width: 150px;
+    height: 100;
+}
+
+.navbar-nav .nav-link{
+    color: white !important; /* Letras en blanco */
+    text-shadow: 2px 2px 4px black; /* Sombra de texto para remarcar las letras */
+    font-weight: bold; /* Opcional: hace el texto más grueso */
+}
+
+.navbar-nav .nav-link.active{
+    color: white !important; /* Letras blancas para el enlace activo */
+    text-shadow: 2px 2px 4px black; /* Remarcado del enlace activo */
+    font-weight: bold;
+}
+
+header nav{
+    position: relative; /* Hacemos que el contenedor del navbar sea relativo */
+}
+
+a.Trailer{
+    color: black; /* Letras negras */
+    background-color: #f7e400; /* Fondo amarillo */
+    padding: 10px 15px; /* Espaciado interno (padding) */
+    text-decoration: none; /* Quitar el subrayado */
+    border-radius: 5px; /* Bordes redondeados opcionales */
+    font-weight: bold; /* Opcional: letras más gruesas */
+    position: absolute; /* Posición absoluta */
+    bottom: 10px; /* Ubica el enlace 10px desde la parte inferior del navbar */
+    left: 20px; /* Opcional: separa el enlace del borde derecho */
+}
+
+a.Trailer:hover{
+    background-color: #af9501; /* Color amarillo más claro al pasar el mouse (hover) */
+    color: black; /* Mantiene las letras negras al pasar el mouse */
+}
+
